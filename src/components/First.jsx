@@ -7,7 +7,7 @@ const First = ({ handleUnmute }) => {
     <div className="h-screen w-screen bg-pink-400 flex justify-center items-center flex-col">
 
 <div className="w-[300px]">
-      <video src={video1}  autoPlay  muted></video>
+      <video src={video1}  autoPlay  loop  muted playsInline></video>
     
     </div>
       <h1 className="text-6xl capitalize mt-4">Do you LOVE ME? 🤗</h1>

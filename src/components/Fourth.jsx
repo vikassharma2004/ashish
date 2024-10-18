@@ -34,7 +34,7 @@ const Fourth = () => {
     <div className="h-screen w-screen bg-pink-400 flex justify-center items-center flex-col relative">
       {/* Center video div */}
       <div className="w-[300px]">
-        <video src={video4} autoPlay muted></video>
+        <video src={video4} autoPlay muted loop playsInline></video>
       </div>
       <h1 className="text-6xl capitalize mt-4">Maan jao na kitna bhavv khogi 😭</h1>
       <p className="font-semibold text-xl mt-3 capitalize">Bhout galat baat haii 😭</p>

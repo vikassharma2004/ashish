@@ -7,14 +7,14 @@ const First = ({ handleUnmute }) => {
     <div className="h-screen w-screen bg-pink-400 flex justify-center items-center flex-col">
 
 <div className="w-[300px]">
-      <video src={video1} autoPlay loop muted></video>
+      <video src={video1}  loop muted></video>
     </div>
       <h1 className="text-6xl capitalize mt-4">Do you LOVE ME? 🤗</h1>
       <p className="font-semibold text-xl mt-3 capitalize">I'm all yours 💖</p>
 
       <div className="flex gap-32 m-9">
         {/* Clicking these buttons will trigger unmute */}
-        <Link to="/s" className="bg-white text-black p-3 rounded-xl font-bold" onClick={handleUnmute}>Yes</Link>
+        <Link to="/yes" className="bg-white text-black p-3 rounded-xl font-bold" onClick={handleUnmute}>Yes</Link>
         <Link to="/s" className="bg-white text-black p-3 rounded-xl font-bold" onClick={handleUnmute}>No</Link>
       </div>
     </div>

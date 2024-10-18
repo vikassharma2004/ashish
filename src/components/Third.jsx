@@ -6,7 +6,7 @@ const Third = () => {
     <div className="h-screen w-screen bg-pink-400 flex justify-center items-center flex-col">
     {/* center video div */}
     <div className="w-[300px]">
-      <video src={video3} autoPlay loop muted></video>
+      <video src={video3}  loop muted></video>
     </div>
     <h1 className="text-6xl capitalize mt-4">ek baar aur soch lo 😣 </h1>
     <p className=" font-semibold text-xl mt-3 capitalize " >kyu aisa kr rahi ho 😖 </p>
